@@ -1,0 +1,22 @@
+/* 
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  } */
+
+  @media screen and (min-width: 0px) and (max-width: 400px) {
+    div.inline a.lin{ display: block; }  /* show it on smaller screen */
+  }
+  @media screen and (min-width: 360px) and (max-width: 768px) {
+      button.btn{padding:0.3rem 0.5rem 0.3rem 0.5rem !important; font-size:1rem !important;}
+    div.inline a.lin{ display: none; }   /* hide it on larger screens */
+  }
+  /* @media (min-width: 1024px){
+    button.btn{padding:0.7rem 2rem 0.7rem 2rem !important; font-size:1.5rem !important;}
+  } */
+
+ div.inline button.btn:hover{
+      background-color:purple !important;
+      color:black !important;
+      transition:all 2sec;
+  }
